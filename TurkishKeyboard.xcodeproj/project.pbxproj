@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5B6ED5822E2D7E0900A712D7 /* Turkish Keyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5B6ED57B2E2D7E0900A712D7 /* Turkish Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5B6ED55A2E2D7CDD00A712D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +25,34 @@
 			remoteGlobalIDString = 5B6ED5422E2D7CDB00A712D7;
 			remoteInfo = TurkishKeyboard;
 		};
+		5B6ED5802E2D7E0900A712D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6ED53B2E2D7CDB00A712D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B6ED57A2E2D7E0900A712D7;
+			remoteInfo = "Turkish Keyboard";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B6ED5872E2D7E0900A712D7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5B6ED5822E2D7E0900A712D7 /* Turkish Keyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5B6ED5432E2D7CDB00A712D7 /* TurkishKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkishKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6ED5592E2D7CDD00A712D7 /* TurkishKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurkishKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6ED5632E2D7CDD00A712D7 /* TurkishKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurkishKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6ED57B2E2D7E0900A712D7 /* Turkish Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Turkish Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +62,13 @@
 				Info.plist,
 			);
 			target = 5B6ED5422E2D7CDB00A712D7 /* TurkishKeyboard */;
+		};
+		5B6ED5862E2D7E0900A712D7 /* Exceptions for "Turkish Keyboard" folder in "Turkish Keyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5B6ED57A2E2D7E0900A712D7 /* Turkish Keyboard */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -56,6 +89,14 @@
 		5B6ED5662E2D7CDD00A712D7 /* TurkishKeyboardUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TurkishKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		5B6ED57C2E2D7E0900A712D7 /* Turkish Keyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5B6ED5862E2D7E0900A712D7 /* Exceptions for "Turkish Keyboard" folder in "Turkish Keyboard" target */,
+			);
+			path = "Turkish Keyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B6ED5782E2D7E0900A712D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +139,7 @@
 				5B6ED5452E2D7CDB00A712D7 /* TurkishKeyboard */,
 				5B6ED55C2E2D7CDD00A712D7 /* TurkishKeyboardTests */,
 				5B6ED5662E2D7CDD00A712D7 /* TurkishKeyboardUITests */,
+				5B6ED57C2E2D7E0900A712D7 /* Turkish Keyboard */,
 				5B6ED5442E2D7CDB00A712D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +150,7 @@
 				5B6ED5432E2D7CDB00A712D7 /* TurkishKeyboard.app */,
 				5B6ED5592E2D7CDD00A712D7 /* TurkishKeyboardTests.xctest */,
 				5B6ED5632E2D7CDD00A712D7 /* TurkishKeyboardUITests.xctest */,
+				5B6ED57B2E2D7E0900A712D7 /* Turkish Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,10 +165,12 @@
 				5B6ED53F2E2D7CDB00A712D7 /* Sources */,
 				5B6ED5402E2D7CDB00A712D7 /* Frameworks */,
 				5B6ED5412E2D7CDB00A712D7 /* Resources */,
+				5B6ED5872E2D7E0900A712D7 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B6ED5812E2D7E0900A712D7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				5B6ED5452E2D7CDB00A712D7 /* TurkishKeyboard */,
@@ -176,6 +228,28 @@
 			productReference = 5B6ED5632E2D7CDD00A712D7 /* TurkishKeyboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5B6ED57A2E2D7E0900A712D7 /* Turkish Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6ED5832E2D7E0900A712D7 /* Build configuration list for PBXNativeTarget "Turkish Keyboard" */;
+			buildPhases = (
+				5B6ED5772E2D7E0900A712D7 /* Sources */,
+				5B6ED5782E2D7E0900A712D7 /* Frameworks */,
+				5B6ED5792E2D7E0900A712D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5B6ED57C2E2D7E0900A712D7 /* Turkish Keyboard */,
+			);
+			name = "Turkish Keyboard";
+			packageProductDependencies = (
+			);
+			productName = "Turkish Keyboard";
+			productReference = 5B6ED57B2E2D7E0900A712D7 /* Turkish Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +271,9 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 5B6ED5422E2D7CDB00A712D7;
 					};
+					5B6ED57A2E2D7E0900A712D7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
 				};
 			};
 			buildConfigurationList = 5B6ED53E2E2D7CDB00A712D7 /* Build configuration list for PBXProject "TurkishKeyboard" */;
@@ -216,6 +293,7 @@
 				5B6ED5422E2D7CDB00A712D7 /* TurkishKeyboard */,
 				5B6ED5582E2D7CDD00A712D7 /* TurkishKeyboardTests */,
 				5B6ED5622E2D7CDD00A712D7 /* TurkishKeyboardUITests */,
+				5B6ED57A2E2D7E0900A712D7 /* Turkish Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +314,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5B6ED5612E2D7CDD00A712D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B6ED5792E2D7E0900A712D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,6 +351,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B6ED5772E2D7E0900A712D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -278,6 +370,11 @@
 			isa = PBXTargetDependency;
 			target = 5B6ED5422E2D7CDB00A712D7 /* TurkishKeyboard */;
 			targetProxy = 5B6ED5642E2D7CDD00A712D7 /* PBXContainerItemProxy */;
+		};
+		5B6ED5812E2D7E0900A712D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B6ED57A2E2D7E0900A712D7 /* Turkish Keyboard */;
+			targetProxy = 5B6ED5802E2D7E0900A712D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -531,6 +628,56 @@
 			};
 			name = Release;
 		};
+		5B6ED5842E2D7E0900A712D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT6A5T3K5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Turkish Keyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Turkish Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soheilqk.TurkishKeyboard.Turkish-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B6ED5852E2D7E0900A712D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JT6A5T3K5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Turkish Keyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Turkish Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soheilqk.TurkishKeyboard.Turkish-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -566,6 +713,15 @@
 			buildConfigurations = (
 				5B6ED5752E2D7CDD00A712D7 /* Debug */,
 				5B6ED5762E2D7CDD00A712D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6ED5832E2D7E0900A712D7 /* Build configuration list for PBXNativeTarget "Turkish Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6ED5842E2D7E0900A712D7 /* Debug */,
+				5B6ED5852E2D7E0900A712D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
