@@ -10,7 +10,7 @@ import UIKit
 class KeyboardViewController: UIInputViewController {
 
     private var keyboardView: UIView!
-    private var isNumberSymbolMode = false  // Main mode: false = Persian, true = Numbers/Symbols
+    private var isNumberSymbolMode = false  // Main mode: false = Turkish, true = Numbers/Symbols
     private var isSymbolMode = false        // Sub-mode within Numbers/Symbols: false = Numbers, true = Symbols
     private var alternativesPopup: UIView?
     
